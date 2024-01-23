@@ -338,14 +338,14 @@ ul.row {
   color: var(--text-color);
 }
 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .footer ul {
   text-align: right;
 }
 .footer {
   padding: var(--footer-padding);
-}
-ul.row::after {
-  content: "";
-  display: table;
-  clear: both;
 }
